@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>start page template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    
+    h1,button{font-family:"Montserrat", sans-serif}
+    
+    ul{
+        position: fixed;
+        background-color: red;
+        margin-left:-10px;
+        margin-top: -10px;
+        margin-right: -10px;
+        margin-bottom: 0px;
+        padding: 0px;
+        overflow:hidden;
+        list-style-type: none;
+        width: 101%;
+        box-shadow: 0px 1px 20px black;
+    }
+    
+    li{
+        float: left;
+    }
+    
+    li a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    li a:hover{
+        cursor: grab;
+        background-color: white;
+        color: black;
+        
+    }
+    
+    li a.active{
+        background-color: white;
+        color: black;
+    }
+    
+    .header{
+        background-color: red;
+        overflow: hidden;
+        width: auto;
+        padding: 0px;
+        text-align: center;
+        margin: 0px -10px 0px -10px;
+        height: 400px;
+    }
+    
+    h1{
+        color: white;
+        padding-top: 80px;
+        font-size: 55px;
+    }
+    
+    p.template{
+        color: white;
+        font-size: 20px;
+        text-decoration: line-through;
+        text-decoration-style: solid;
+        text-decoration-color: blanchedalmond;
+        padding: 20px;
+    }
+    
+    button{
+        color: white;
+        background-color: black;
+        border: none;
+        font-size: 20px;
+        padding: 15px;
+        margin: 15px;
+    }
+    
+    button:hover{
+        background-color: white;
+        color: black;
+    }
+    
+    p.text{
+    color: dimgray;
+    font-size:16px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    text-indent:50px;
+    line-height: 150%;
+    }
+    
+    article{
+    width: 100%;
+    display: inline-block;
+    }
+    
+    .textarea{
+        width: 50%;
+        margin: 80px 0px 0px 40px;
+        float: left;
+    }
+    
+    h2{
+        color: red;
+        font-variant: small-caps;
+        font-size: 30px;
+        
+    }
+    
+    h4{
+        text-shadow: 1px 1px 20px red;
+        font-size: 20px;
+    }
+    
+    img{
+        border-radius: 50%;
+        box-shadow: 5px 5px 20px red;
+        margin: 10% 0px 0px 10%;
+        width: 30%;
+        float: left;
+    }
+    
+    @media screen and (min-width:480px){
+        img{float: left;}
+        .textarea{margin-left: 100px;}
+    }
+    
+    .quote{
+        background-color: red;
+        color: white;
+        display: block;
+        margin:40px -10px 10px -10px;
+        text-align: center;
+    }
+    
+    footer{
+        text-align: center;
+    }
+    
+    .icons{
+        padding: 40px;
+        font-size: 25px;
+    }
+    
+    i:hover{
+        color: grey;
+    }
+</style>    
+</head>
+
+<body>
+
+<!--navbar -->
+<ul>
+    <li><a class="active" href="#">HOME</a></li>
+    <li><a href="#">LINK1</a></li>
+    <li><a href="#">LINK2</a></li>
+    <li><a href="#">LINK3</a></li>
+    <li style="float: right;"><a href="#">LOGIN</a></li>
+</ul>
+<!--heading -->
+<header class="header">
+    <h1>START PAGE</h1>
+    <p class="template">Template by Shubham</p>
+    <div class="button">
+    <button> Get Started</button>
+    </div>
+</header>  
+<!--main content-->
+<article>
+   <div class="textarea">
+    <h2>The journey starts here......</h2>
+    <h4>How it all started??</h4>
+    <p class="text"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet lorem ac malesuada bibendum. Praesent eu nulla eu odio viverra bibendum. Quisque hendrerit neque gravida interdum accumsan. Nulla et nisi feugiat, posuere eros in, aliquet metus. Aliquam vulputate massa leo, et faucibus ante scelerisque eu. Nulla facilisi. Quisque arcu orci, pulvinar sit amet luctus nec, auctor id leo. Mauris egestas feugiat ex, sed imperdiet ipsum semper ac. Integer euismod dolor at felis volutpat volutpat. Cras et lobortis lacus. Aenean commodo, justo sit amet elementum pellentesque, arcu nulla euismod enim, non ultrices magna orci sit amet risus. Suspendisse in diam porttitor, tincidunt sem sagittis, maximus nulla. Maecenas quam mauris, sodales in massa id, blandit ornare quam. Nam ut placerat tortor. Suspendisse venenatis egestas nisl, sed molestie lectus iaculis quis. Aliquam erat volutpat.
+
+Maecenas ac mauris non tellus vehicula ultricies posuere sit amet neque. Sed imperdiet libero lacus. Suspendisse nec diam eget elit condimentum aliquam. Praesent varius nulla vitae erat finibus, et interdum dui ullamcorper. Curabitur ipsum odio, aliquam at ex nec, imperdiet malesuada diam. Fusce vulputate ornare tristique. Morbi ultricies orci risus, semper scelerisque odio feugiat ac. Fusce dui libero, tincidunt ullamcorper massa eget, condimentum condimentum magna. Cras rutrum velit urna, ac sagittis ex congue ut. Etiam interdum varius justo vel vulputate. Vivamus hendrerit elementum mauris, non mattis felis luctus quis. Vestibulum dictum elit a mi aliquam, quis consectetur enim sagittis.</i></p>
+    </div>
+    <img src="images/chevrolet-0a.jpg" alt="car" style="width: 400px;height: 200px;">
+</article>
+<div class="quote">
+    <p style="font-size: 30px;padding: 40px 0px 40px 0px;"><strong>Quote of the Day:</strong><span style="text-decoration: line-through;padding: 20px;"><sub>Live</sub><sup> Life</sup></span></p>
+</div>
+<footer>
+<div class="icons">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    
+</div>
+<p style="color: red;">"Thanks for joining my Journey"</p>
+</footer>                   
+</body>    
+</html>
